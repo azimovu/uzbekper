@@ -1,0 +1,104 @@
+{
+  "BlueRaccoon_whisper-small-uz": {
+    "micro": {
+      "WER": 29.71,
+      "PER": 9.1,
+      "gap": 20.61,
+      "n": 4155
+    },
+    "per_source": {
+      "common_voice": {
+        "WER": 15.46,
+        "PER": 3.69,
+        "gap": 11.77,
+        "n": 1815
+      },
+      "news_youtube": {
+        "WER": 64.5,
+        "PER": 23.89,
+        "gap": 40.61,
+        "n": 122
+      },
+      "usc": {
+        "WER": 50.55,
+        "PER": 18.32,
+        "gap": 32.23,
+        "n": 713
+      },
+      "uzbekvoice": {
+        "WER": 18.3,
+        "PER": 3.99,
+        "gap": 14.31,
+        "n": 1505
+      }
+    }
+  },
+  "openai_whisper-large-v3": {
+    "micro": {
+      "WER": 94.58,
+      "PER": 30.93,
+      "gap": 63.65,
+      "n": 4155
+    },
+    "per_source": {
+      "common_voice": {
+        "WER": 96.77,
+        "PER": 29.66,
+        "gap": 67.11,
+        "n": 1815
+      },
+      "news_youtube": {
+        "WER": 93.61,
+        "PER": 43.22,
+        "gap": 50.39,
+        "n": 122
+      },
+      "usc": {
+        "WER": 95.43,
+        "PER": 29.74,
+        "gap": 65.68,
+        "n": 713
+      },
+      "uzbekvoice": {
+        "WER": 92.33,
+        "PER": 26.51,
+        "gap": 65.82,
+        "n": 1505
+      }
+    }
+  },
+  "GitNazarov_whisper-large-uz": {
+    "micro": {
+      "WER": 112.92,
+      "PER": 37.6,
+      "gap": 75.32,
+      "n": 4116
+    },
+    "per_source": {
+      "common_voice": {
+        "WER": 109.89,
+        "PER": 33.68,
+        "gap": 76.21,
+        "n": 1815
+      },
+      "news_youtube": {
+        "WER": 109.88,
+        "PER": 49.24,
+        "gap": 60.64,
+        "n": 122
+      },
+      "usc": {
+        "WER": 124.69,
+        "PER": 45.01,
+        "gap": 79.68,
+        "n": 708
+      },
+      "uzbekvoice": {
+        "WER": 113.28,
+        "PER": 33.12,
+        "gap": 80.16,
+        "n": 1471
+      }
+    }
+  }
+}

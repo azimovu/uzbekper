@@ -1,0 +1,43 @@
+# Secrets — NEVER commit
+.env
+**/.env
+*.env
+
+# Large audio data (refetched via scripts/fetch_sample_300.py)
+audios/
+
+# Full 10k manifests (derived; only sample_300.jsonl is the published spec)
+data/train_manifest.json
+data/val_manifest.json
+data/test_manifest.json
+
+# Full 10k inference outputs (legacy Vast run; not the published 300-clip set)
+results/
+
+# Scratch / debug scripts
+scripts/_debug*.py
+scripts/_inspect*.py
+scripts/_turk_check.py
+
+# Internal / dev scaffolding
+.hermes/
+epitran_pr/
+g2p_audit/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+uzg2p/.venv/
+uzg2p/*.egg-info/
+*.egg-info/
+
+# Modal ephemeral
+.modal/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local scratch (optional)
+/tmp/

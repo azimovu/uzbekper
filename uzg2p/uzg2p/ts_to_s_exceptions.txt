@@ -1,0 +1,1 @@
+# empty: default keeps /ts/; add foreign loans here that read as /s/

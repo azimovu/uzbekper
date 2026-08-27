@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uzg2p"
+version = "0.1.0"
+description = "Uzbek grapheme-to-phoneme conversion (wraps Epitran with Uzbek-specific fixes)"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Utkirbek Azimov"}]
+requires-python = ">=3.10"
+dependencies = ["epitran>=1.0"]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.setuptools.packages.find]
+include = ["uzg2p*"]

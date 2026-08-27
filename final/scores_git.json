@@ -1,0 +1,41 @@
+{
+  "GitNazarov_whisper-large-uz": {
+    "micro": {
+      "WER": 113.51,
+      "PER": 37.24,
+      "gap": 76.27,
+      "n": 8271
+    },
+    "macro": {
+      "WER": 114.53,
+      "PER": 39.46,
+      "gap": 75.07
+    },
+    "per_source": {
+      "common_voice": {
+        "WER": 112.49,
+        "PER": 34.96,
+        "gap": 77.53,
+        "n": 3645
+      },
+      "news_youtube": {
+        "WER": 111.09,
+        "PER": 48.78,
+        "gap": 62.31,
+        "n": 247
+      },
+      "usc": {
+        "WER": 121.67,
+        "PER": 41.7,
+        "gap": 79.97,
+        "n": 1349
+      },
+      "uzbekvoice": {
+        "WER": 112.87,
+        "PER": 32.38,
+        "gap": 80.49,
+        "n": 3030
+      }
+    }
+  }
+}

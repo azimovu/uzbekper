@@ -1,0 +1,47 @@
+{
+  "openai_whisper-large-v3": {
+    "micro": {
+      "WER": 94.53,
+      "PER": 31.26,
+      "gap": 63.27,
+      "n": 4220
+    },
+    "macro": {
+      "WER": 93.77,
+      "PER": 33.62,
+      "gap": 60.15
+    },
+    "per_source": {
+      "common_voice": {
+        "WER": 96.8,
+        "PER": 29.72,
+        "gap": 67.08,
+        "n": 1833
+      },
+      "it_youtube": {
+        "WER": 90.67,
+        "PER": 38.47,
+        "gap": 52.19,
+        "n": 14
+      },
+      "news_youtube": {
+        "WER": 93.61,
+        "PER": 43.7,
+        "gap": 49.92,
+        "n": 130
+      },
+      "usc": {
+        "WER": 95.36,
+        "PER": 29.74,
+        "gap": 65.62,
+        "n": 719
+      },
+      "uzbekvoice": {
+        "WER": 92.43,
+        "PER": 26.47,
+        "gap": 65.96,
+        "n": 1524
+      }
+    }
+  }
+}

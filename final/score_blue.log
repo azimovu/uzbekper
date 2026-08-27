@@ -1,0 +1,7 @@
+BlueRaccoon_whisper-small-uz: micro WER 31.09% PER 9.78% gap 21.31 | macro WER 44.12% PER 15.97%
+    common_voice: WER 15.46 PER 3.69 n=1834
+    it_youtube: WER 71.14 PER 29.32 n=15
+    news_youtube: WER 65.29 PER 24.60 n=133
+    usc: WER 50.48 PER 18.25 n=719
+    uzbekvoice: WER 18.25 PER 3.97 n=1519
+saved final/scores_blue.json

@@ -1,0 +1,47 @@
+{
+  "BlueRaccoon_whisper-small-uz": {
+    "micro": {
+      "WER": 31.09,
+      "PER": 9.78,
+      "gap": 21.31,
+      "n": 4220
+    },
+    "macro": {
+      "WER": 44.12,
+      "PER": 15.97,
+      "gap": 28.16
+    },
+    "per_source": {
+      "common_voice": {
+        "WER": 15.46,
+        "PER": 3.69,
+        "gap": 11.77,
+        "n": 1834
+      },
+      "it_youtube": {
+        "WER": 71.14,
+        "PER": 29.32,
+        "gap": 41.81,
+        "n": 15
+      },
+      "news_youtube": {
+        "WER": 65.29,
+        "PER": 24.6,
+        "gap": 40.69,
+        "n": 133
+      },
+      "usc": {
+        "WER": 50.48,
+        "PER": 18.25,
+        "gap": 32.23,
+        "n": 719
+      },
+      "uzbekvoice": {
+        "WER": 18.25,
+        "PER": 3.97,
+        "gap": 14.28,
+        "n": 1519
+      }
+    }
+  }
+}

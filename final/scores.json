@@ -1,0 +1,20 @@
+{
+  "openai_whisper-large-v3": {
+    "WER": 94.53,
+    "PER": 31.26,
+    "gap": 63.27,
+    "n": 4220
+  },
+  "BlueRaccoon_whisper-small-uz": {
+    "WER": 31.09,
+    "PER": 9.78,
+    "gap": 21.31,
+    "n": 4220
+  },
+  "GitNazarov_whisper-large-uz": {
+    "WER": 113.51,
+    "PER": 37.24,
+    "gap": 76.27,
+    "n": 8271
+  }
+}

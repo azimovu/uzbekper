@@ -1,0 +1,6 @@
+GitNazarov_whisper-large-uz: micro WER 113.51% PER 37.24% gap 76.27 | macro WER 114.53% PER 39.46%
+    common_voice: WER 112.49 PER 34.96 n=3645
+    news_youtube: WER 111.09 PER 48.78 n=247
+    usc: WER 121.67 PER 41.70 n=1349
+    uzbekvoice: WER 112.87 PER 32.38 n=3030
+saved final/scores_git.json

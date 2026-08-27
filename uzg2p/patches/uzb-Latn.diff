@@ -1,0 +1,8 @@
+--- a/epitran/data/map/uzb-Latn.csv
++++ b/epitran/data/map/uzb-Latn.csv
+@@ -37,4 +37,5 @@
+ ts,t͡s
+ oo,u
+ ë,ja
++ʻ,ʔ
+ 
